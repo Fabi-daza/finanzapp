@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+:root {
+    --primary: #4363AE;
+    --buttonShadow: 4px 4px 16px rgba(0,0,0,0.4);
+    --background: #ebebeb;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background);
+}
+.form-ingreso{
+    width: 60%;
+    min-height: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.4);
+}
+.form-ingreso div{
+    width:80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-ingreso p{
+    margin: 0px;
+}
+.form-ingreso div input, select{
+    width:  100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    
+}
+.form-ingreso label{
+    align-self: start;
+    font-weight: 400;
+}
+
+.form-ingreso button{
+    background-color: var(--primary);
+    border: none;
+    margin: 25px;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    box-shadow: var(--buttonShadow);
+}
+
+.agregar_categoria{
+    align-self: end;
+}
